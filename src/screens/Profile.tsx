@@ -165,7 +165,7 @@ export function Profile() {
         const userPhotoUploadForm = new FormData();
         //primeiro fomurlario do append é o nome do campo (deve ser igual no back) e o que vou enviar
         //o back vai receber esse valor la no campo chamado 'avatar'
-        //é tipo o nome do formuario ("avatar") e os seus dados
+        //é tipo o nome do formuario ("avatar") e os seus dados (photoFile)
         userPhotoUploadForm.append("avatar", photoFile); //crie o formulário com o nome dele ('avatar')
 
         //feito tadas as requisições a cima, agora posso enviar pro back
